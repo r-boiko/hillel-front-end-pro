@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  <link rel="stylesheet" href="./css/todo.css">
+</head>
+<body>
+<div id="todo">
+  <h1> MY TO-DO LIST <i id="pencil" class="fas fa-pencil-alt"></i> </h1>
+  <input type="text" placeholder="Add New Todo" class="todoText">
+  <ul class="todos">
+    <li class="todo"><span class="removeTodo"><i class="fas fa-trash-alt"></i></span>Go to the salon</li>
+  </ul>
+  <div id="buttons">
+    <button class="save">Save</button>
+    <button class="clear">Clear</button>
+    <button class="tipBtn">Tips</button>
+  </div>
+</div>
+<div id="overlay">
+  <a href="/" class="closebtn">&times;</a>
+  <ul class="tips">
+    <li>Click on the pencil to hide or show input area</li>
+    <li>Type text into input area and press enter to add todo to list</li>
+    <li>Hover over the todo and click the on trash can to delete</li>
+    <li>Click the clear button to clear all todos from list</li>
+    <li>Click the Save button to save your todos to access them later even if you exit the browser </li>
+  </ul>
+</div>
+<script src="./js/todo.js"></script>
+</body>
+</html>
