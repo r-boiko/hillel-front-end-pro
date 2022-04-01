@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .square {
+      width: 200px;
+      height: 200px;
+      background-color: aquamarine;
+      margin: 50px;
+    }
+    .up, .down {
+      width: 50px;
+      height: 50px;
+    }
+    .total-count {
+      font-weight: 100;
+      font-size: 70px;
+    }
+    .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="square">
+    <div class="increment-count">
+      <button class="up">+</button>
+    </div>
+    <div class="total-count">
+      0
+    </div>
+    <div class="decrement-count">
+      <button class="down">-</button>
+    </div>
+  </div>
+  <div class="square">
+    <div class="increment-count">
+      <button class="up">+</button>
+    </div>
+    <div class="total-count">
+      0
+    </div>
+    <div class="decrement-count">
+      <button class="down">-</button>
+    </div>
+  </div>
+  <div class="square">
+    <div class="increment-count">
+      <button class="up">+</button>
+    </div>
+    <div class="total-count">
+      0
+    </div>
+    <div class="decrement-count">
+      <button class="down">-</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // -- 1 --
+  // const squares = document.querySelectorAll('.square');
+  // squares.forEach(function (square) {
+  //   const up = square.querySelector('.up');
+  //   const down = square.querySelector('.down');
+  //   const count = square.querySelector('.total-count');
+  //
+  //   up.addEventListener('click', function () {
+  //     count.textContent++;
+  //   })
+  //
+  //   down.addEventListener('click', function () {
+  //     count.textContent--;
+  //   })
+  // })
+
+  // -- 2 --
+  // const container = document.querySelector('.container');
+  // container.addEventListener('click', function (e) {
+  //   debugger
+  //   const currentItem = e.target;
+  //
+  //   if(currentItem.classList.contains('up')) {
+  //     const count = currentItem.parentElement.nextElementSibling;
+  //
+  //     count.textContent++;
+  //   }
+  //
+  //   if(currentItem.classList.contains('down')) {
+  //     const count = currentItem.parentElement.previousElementSibling;
+  //
+  //     count.textContent--;
+  //   }
+  // })
+</script>
+</body>
+</html>
