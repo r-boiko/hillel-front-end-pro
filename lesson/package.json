@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Node JS Basics",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Roman Boyko <boyko@dev.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
