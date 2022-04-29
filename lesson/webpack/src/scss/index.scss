@@ -1,0 +1,13 @@
+@import "~normalize.css";
+@import "second";
+@import "roboto.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  background: gray;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}

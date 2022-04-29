@@ -1,0 +1,18 @@
+$border: 1px solid aliceblue;
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  h1 {
+    border: $border;
+  }
+}
+
+.logo {
+  background-image: url("../assets/webpack-logo.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
