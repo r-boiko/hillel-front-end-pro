@@ -1,6 +1,7 @@
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
+const DotenvPlugin = require('webpack-dotenv-plugin');
 const path = require('path');
 
 const {generateHtmlViews, isDev, fileName} = require('./utils');
@@ -42,6 +43,9 @@ module.exports = (_, {mode}) => {
           }
         ],
       }),
+      new DotenvPlugin({
+        sample: './.env',
+      })
     ],
     module: {
       rules: [
