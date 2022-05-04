@@ -1,4 +1,1 @@
-// api
-import './api';
-
-console.log('main.js');
+export const {API_KEY} = process.env;
