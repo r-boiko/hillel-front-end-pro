@@ -1,11 +1,11 @@
 @import "mixins.scss";
+@import "colors.scss";
 
 * {
   font-family: 'Montserrat-Black', sans-serif;
 }
 
 .container {
-  max-width: 1400px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -21,4 +21,12 @@
   @include tablet {
     margin-right: -15px;
   }
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
 }
