@@ -1,10 +1,10 @@
-import InvoicesExample from './pages/InvoicesExample';
+import FormikForm from './forms/FormikForm';
 
 import './App.css';
 
 const App = () => (
   <div className="App">
-    <InvoicesExample/>
+    <FormikForm/>
   </div>
 );
 
