@@ -1,0 +1,18 @@
+.enter-wrap {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  .enter {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .add {
+    white-space: nowrap;
+    padding: 10px;
+    margin-left: 5px;
+  }
+}
+
+

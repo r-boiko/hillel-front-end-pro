@@ -1,0 +1,9 @@
+.item {
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
