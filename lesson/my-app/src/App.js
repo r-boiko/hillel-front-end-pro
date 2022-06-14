@@ -1,11 +1,17 @@
-import FormikForm from './forms/FormikForm';
+import {Provider} from "react-redux";
+
+import store from './store/configureStore';
+
+import Posts from "./components/Posts";
 
 import './App.css';
 
 const App = () => (
-  <div className="App">
-    <FormikForm/>
-  </div>
+  <Provider store={store}>
+    <div className="App">
+      <Posts/>
+    </div>
+  </Provider>
 );
 
 export default App;
