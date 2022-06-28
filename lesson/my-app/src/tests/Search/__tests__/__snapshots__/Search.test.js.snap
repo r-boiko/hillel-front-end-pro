@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search toMatchSnapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <img
+      alt="search image"
+      class="image"
+      src=""
+    />
+    <div>
+      <label
+        for="search"
+      >
+        SEARCH:
+      </label>
+      <input
+        id="search"
+        placeholder="search text..."
+        type="text"
+        value=""
+      />
+    </div>
+    <p>
+      Searches for ...
+    </p>
+  </div>
+</DocumentFragment>
+`;
